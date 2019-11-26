@@ -81,7 +81,7 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                    Laravel
+                    Testin AWS CodeBuild
                 </div>
 
                 <div class="links">
