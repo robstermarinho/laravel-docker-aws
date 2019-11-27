@@ -81,7 +81,7 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                    Testin AWS CodeBuild
+                    AWS CodeBuild Test
                 </div>
 
                 <div class="links">
