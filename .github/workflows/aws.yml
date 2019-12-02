@@ -55,7 +55,7 @@ jobs:
       id: build-image
       env:
         ECR_REGISTRY: ${{ steps.login-ecr.outputs.registry }}
-        ECR_REPOSITORY: 788543903363.dkr.ecr.us-west-2.amazonaws.com/robstermarinho/laravel-docker-aws
+        ECR_REPOSITORY: 788543903363.dkr.ecr.us-east-2.amazonaws.com/aws-laravel-github-actions
         IMAGE_TAG: ${{ github.sha }}
       run: |
         # Build a docker container and
@@ -78,5 +78,5 @@ jobs:
       with:
         task-definition: ${{ steps.task-def.outputs.task-definition }}
         service: sample-app-service
-        cluster: github-actions-service
+        cluster: github-actions-service2
         wait-for-service-stability: true
